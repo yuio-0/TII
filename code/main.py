@@ -8,7 +8,7 @@ from plotly import graph_objs as go
 import plotly.express as px
 import sqlite3
 
-conn = sqlite3.connect('/TheIntelligentInvestor/data/data.db')
+conn = sqlite3.connect('/TII/data/data.db')
 c = conn.cursor()
 
 
